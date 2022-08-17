@@ -82,6 +82,30 @@
 
 
 @media only screen and (max-width: 480px) {
+
+    nav{
+        gap:10px
+    }
+
+    nav>.logo>img{
+        width: 100px;
+    }
+    
+    .signin-btn{
+        background : linear-gradient(45deg, #5A20CB, #de95fd);
+        margin: 9px;
+        font-size: 14px;
+        padding: 7px 20px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .mobile-menu{
+        width: 25px;
+    }
+
     .left-section > h1{
         font-size: 36px;
         line-height: 30px;
@@ -93,8 +117,15 @@
         line-height: 28px;
         letter-spacing: 1px;
     }
+
+    .intro-img{
+        width: 280px;
+        object-fit: cover;
+    }
 }
 
 @media only screen and (max-width: 320px) {
-  
+    .intro-img {
+        width: 260px;
+    }
 }
