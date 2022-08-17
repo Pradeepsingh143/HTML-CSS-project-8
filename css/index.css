@@ -22,22 +22,27 @@ nav{
     margin: 20px; 
 }
 
+.hamburger{
+    display: none;
+}
+
 .signin-btn{
     background : linear-gradient(45deg, #5A20CB, #de95fd);
     margin: 9px;
     font-size: 16px;
-    padding: 2px 25px;
+    padding: 10px 25px;
     color: white;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .intro-section{
     display: flex;
-    justify-content: space-between;
     width: 80%;
     margin: auto;
     align-items: center;
+    min-height: 90vh;
 }
 
 .left-section > h1{
@@ -60,6 +65,8 @@ nav{
     color: white;
     border: none;
     border-radius: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .imgs-div{
